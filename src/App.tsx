@@ -5,7 +5,7 @@ import { Projects } from './components/Projects/Projects';
 
 const App = () => {
   return (
-    <div>
+    <div className='app'>
       <Home />
       <Projects />
       <Footer />
