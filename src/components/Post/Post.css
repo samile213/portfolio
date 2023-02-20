@@ -1,0 +1,32 @@
+article {
+    display: grid;
+    grid-template-rows: 25% 35% 30% 10%;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+};
+
+article > header > * {
+    height: 20%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+article > p {
+    margin: 0 1rem;
+}
+
+article > ul {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+.image {
+    height: 100%;
+    margin-bottom: 3rem;
+
+}
+
+.image > img {
+    width: 100%;
+}
