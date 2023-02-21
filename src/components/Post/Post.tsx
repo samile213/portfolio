@@ -10,13 +10,13 @@ export const Post = ( {
 
     return (
         <article>
-            <header>
+            <section className='header'>
                 <h2><a href={projectUrl}>{title}<br />
                 </a></h2>
-            </header>
+            </section>
             <a href={projectUrl} className="image"><img src={imageSrc} alt=""/></a>
             <p>{description}</p>
-            <ul className="actions special">
+            <ul>
                 <li><a href={projectUrl} className="button">View Project</a></li>
             </ul>
         </article>            

@@ -1,0 +1,28 @@
+footer {
+    width: 90%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eeeeee;
+}
+
+section > a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section > a:hover {
+    color: #18bfef !important;
+}
+
+section > a > * {
+    height: 100%;
+}
+
+section > a > p {
+    margin: 0;
+}

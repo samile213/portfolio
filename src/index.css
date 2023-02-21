@@ -19,6 +19,11 @@ a {
     border-bottom-color: transparent;
   }
 
+  a:visited {
+    color: inherit;
+  }
+
+  
 strong, b {
   font-weight: 600;
 }
@@ -29,7 +34,7 @@ em, i {
 
 p {
   text-align: justify;
-  margin: 0;
+  margin: 0 3rem;
 }
 
 h1, h2, h3, h4, h5, h6 {

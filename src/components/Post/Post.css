@@ -1,24 +1,29 @@
 article {
     display: grid;
-    grid-template-rows: 25% 40% 25%  10%;
+    grid-template-rows: 10rem 10rem 8rem 5rem;
     align-items: center;
     text-align: center;
     width: 100%;
 };
 
-article > header > * {
-    height: 20%;
-    font-weight: 700;
-    text-transform: uppercase;
+section {
+    margin-bottom: -2rem;
+    color:red;
+}
+
+h2 {
+    margin-bottom: 0;
 }
 
 article > p {
-    margin: 0 1rem;
+    margin: 0 3rem;
+    align-self: start;
 }
 
 article > ul {
     list-style-type: none;
     text-transform: uppercase;
+    padding: 0;
 }
 
 .image {
