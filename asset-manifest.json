@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/samile213.github.io/static/css/main.674f7f39.css",
+    "main.js": "/samile213.github.io/static/js/main.d4713699.js",
+    "static/media/python2.png": "/samile213.github.io/static/media/python2.cc4bd351aafe22d98dbe.png",
+    "static/media/restaurant.png": "/samile213.github.io/static/media/restaurant.3b0c642a8b896996d30d.png",
+    "static/media/dbs.png": "/samile213.github.io/static/media/dbs.d8449a4f90204c84d7e9.png",
+    "static/media/netflix.png": "/samile213.github.io/static/media/netflix.a3092e10ce2527646427.png",
+    "index.html": "/samile213.github.io/index.html",
+    "main.674f7f39.css.map": "/samile213.github.io/static/css/main.674f7f39.css.map",
+    "main.d4713699.js.map": "/samile213.github.io/static/js/main.d4713699.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.674f7f39.css",
+    "static/js/main.d4713699.js"
+  ]
+}
