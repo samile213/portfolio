@@ -1,5 +1,6 @@
 footer {
-    width: 90%;
+    width: 100%;
+    max-width: 72rem;
     height: 5rem;
     display: flex;
     flex-direction: row;
@@ -26,3 +27,29 @@ section > a > * {
 section > a > p {
     margin: 0;
 }
+
+@media screen and (max-width: 736px) {
+    footer {
+        max-width: 36rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        max-width: 36rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        padding: 0 2rem;
+    }
+}
+

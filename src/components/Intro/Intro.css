@@ -49,32 +49,18 @@
 
     @media screen and (max-width: 980px) {
 
-        #intro {
-            min-height: 90vh;
-        }
-
-            #intro p br {
-                display: none;
-            }
-
 
     }
 
     @media screen and (max-width: 736px) {
-
-        #intro {
-            min-height: 80vh;
+        #intro h1 {
+            font-size: 3.25rem;
+            line-height: 1.1;
+            margin-bottom: 1rem;
         }
 
-            #intro h1 {
-                font-size: 3.25rem;
-                line-height: 1.1;
-                margin-bottom: 1rem;
-            }
-
-            #intro p {
-                font-size: 1rem;
-                margin-top: 0rem;
-            }
-
+        #intro p {
+            font-size: 1rem;
+            margin-top: 0rem;
+        }
     }
